@@ -156,7 +156,7 @@ class Button():
         #   GPIO pin of the buton (i.e. self.pin) to the "unpressed value" 
         #   of the class (i.e. we are executing the while loop while the 
         #   button is not being pressed)
-        while not self.is_pressed():
+        while(GPIO.input(self.pin) == 1):
         
             if function is not None:
                 function_return_value = function()
@@ -174,7 +174,7 @@ class Button():
         #   GPIO pin of the buton (i.e. self.pin) to the "pressed value" 
         #   of the class (i.e. we are executing the while loop while the 
         #   button is being pressed)
-        while self.is_pressed():
+        while(GPIO.input(self.pin) == 0):
             time.sleep(self.sleep_time)
         
         # Compute the button_press_time
