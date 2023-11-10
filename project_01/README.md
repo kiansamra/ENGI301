@@ -3,6 +3,10 @@
 ## Introduction
 This repository provides the code needed to run the Exercise Tracker on the PocketBeagle.  For more information on the Exercise Tracker and setting up the hardware, please visit the [hackster.io](https://www.hackster.io/kiansamra/exercise-tracker-2aaf67) page.
 
+## Setting Up the PocketBeagle
+Download the [image file](bone-debian-10.11-iot-armhf-2022-02-03-4gb.img.xz).
+With a programmable SD card inserted into your PocketBeagle, use an SD card flasher like [Etcher](https://etcher.balena.io/) to flash the PocketBeagle with the file.
+
 ## Dependencies
 * Python Package Manager (PIP)
 * Adafruit BBIO library
@@ -33,5 +37,5 @@ sudo pip3 install --upgrade Adafruit_BBIO
 ## Usage
 The tracker will run when the PocketBeagle is powered on. The switch on the breadboard must be flicked on (to the side away from the pullup resistor) to initiate tracking.  The tracker can also be run from the Cloud9 IDE with the following commands
 ```sh
-debian@beaglebone:/var/lib/cloud9/ENGI301/python/project_01$ ./run
+debian@beaglebone:/var/lib/cloud9/ENGI301/python/project_01$ ./sudo run
 ```
