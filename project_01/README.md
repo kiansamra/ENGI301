@@ -35,13 +35,13 @@ sudo pip3 install --upgrade Adafruit_BBIO
 ```
 
 ## Installing the Software
-Create a new directory where you want to install the software files for the Exercise Tracker from this github repository.  cd into the new directory you created and then enter the following command
+Create a new directory where you want to install the software files for the Exercise Tracker from this github repository.  cd into the new directory you created and then enter the following command (make sure to change chosen_directory to your directory path)
 ```sh
 debian@beaglebone: /var/lib/cloud9/chosen_directory$ git clone https://github.com/kiansamra/ENGI301/tree/main/project_01
 ```
 
 ## Usage
-The tracker will run when the PocketBeagle is powered on. The switch on the breadboard must be flicked on (to the side away from the pullup resistor) to initiate tracking.  The tracker can also be run from the Cloud9 IDE with the following commands
+The tracker will run when the PocketBeagle is powered on. The switch on the breadboard must be flicked on (to the side away from the pullup resistor) to initiate tracking.  The tracker can also be run from the Cloud9 IDE with the following command (make sure to change chosen_directory to your directory path)
 ```sh
 debian@beaglebone:/var/lib/cloud9/chosen_directory$ ./sudo run
 ```
