@@ -28,8 +28,8 @@ Run the following shell commands in your terminal window
 ```sh
 sudo pip3 install --upgrade setuptools
 sudo pip3 install --upgrade Adafruit_BBIO
+```
 
-## Usage
 ## Usage
 The tracker will run when the PocketBeagle is powered on. The switch on the breadboard must be flicked on (to the side away from the pullup resistor) to initiate tracking.  The tracker can also be run from the Cloud9 IDE with the following commands
 ```sh
