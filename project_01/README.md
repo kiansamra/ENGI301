@@ -6,3 +6,7 @@ This repository provides the code needed to run the Exercise Tracker on the Pock
 ## Dependencies
 * Python Package Manager (PIP)
 * Adafruit BBIO library
+
+## Follow the instructions below to install these dependencies
+
+## Usage
