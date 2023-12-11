@@ -1,0 +1,10 @@
+Partlist exported from C:/Users/Computer/Desktop/Rice University/Sem 7/Engi301/Eagle/ExerciseTracker.sch at 12/10/2023 2:36 PM
+
+Qty Value         Device        Package        Parts                              Description                                                                  
+1                 LED5MM        LED5MM         LED1                               LED                                                                                                      1                 POTENTIOMETER 3RP/1610N      R1                                 16mm Potentiometer one level                                                                                 
+1   0.1           R_R0603       R0603          R2                                 RESISTOR, American symbol                                                                                          
+1   1k            R_R0603       R0603          R3                                 RESISTOR, American symbol                                                                                                                                                                                              
+1   MPU6050       MPU6050       MPU6050        U$2                                                                                                                                                   
+1   POCKETBEAGLE  POCKETBEAGLE  POCKETBEAGLE   U1                                                                                                                                                    
+1   SLIDE_SWITCH  SLIDE_SWITCH  JS202011SCQN   SW1                                JS202011SCQN SPDT Slide Switch                                                                                     
+1   TUXGR_16X2_R2 TUXGR_16X2_R2 TUXGR_16X2_R2  DIS1                               Tuxgraphics LCD display 16x2 characters reflective, without       
